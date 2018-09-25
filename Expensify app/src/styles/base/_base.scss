@@ -1,0 +1,28 @@
+//rems kick ass.
+html {
+    font-size: 62.5%
+}
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+body {
+    background: white;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: $m-size;  
+}
+
+button {
+    cursor: pointer;
+    outline: none;
+}
+
+button:disabled {
+    cursor: default;
+}
+
+.is-active {
+    font-weight: bold;
+    color: green;
+}
